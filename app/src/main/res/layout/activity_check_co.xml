@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".check_co">
+<RelativeLayout
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Turn On Hotspot Or Wifi "
+        android:id="@+id/tx"
+
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:padding="20dp"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20px"
+        android:text="Turn On Wifi"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:paddingLeft="20px"
+        android:layout_below="@id/tx"
+        android:background="@color/design_default_color_primary"
+        android:textColor="#ffffff"
+        android:id="@+id/wifi"
+        android:layout_marginTop="20dp"
+        android:paddingRight="20px"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20px"
+
+        android:text="Turn On Hotspot"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:paddingLeft="20px"
+        android:id="@+id/hotspot"
+        android:layout_below="@id/wifi"
+        android:background="@color/design_default_color_primary"
+        android:textColor="#ffffff"
+        android:layout_marginTop="20dp"
+        android:paddingRight="20px"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>
+</RelativeLayout>

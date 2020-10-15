@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">wifi-scanner</string>
+    <string name="title_home">Scan</string>
+    <string name="title_dashboard">live Connections</string>
+    <string name="title_notifications">Connection Details</string>
+    <string name="str">mimi</string>
+    <string name="ch">mimi</string>
+
+</resources>
